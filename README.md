@@ -1,20 +1,19 @@
-## A télécharger / installer vous-même
-Pour l'executable FFMPEG, il est disponible sur son site officiel : https://ffmpeg.org/download.html
+## To Download / Install yourself
+**FFMPEG.exe** : https://ffmpeg.org/download.html  
+**XbTool.exe** : https://github.com/AlexCSDev/XbTool  
+**XbxDETool.exe** : https://github.com/Nenkai/XbxDeTool  
 
-Pour l'exécutable XbTool : https://github.com/AlexCSDev/XbTool
-Pour l'exécutable XbxDETool : https://github.com/Nenkai/XbxDeTool
+## Already present
+**opus.dll** :  
+	https://packages.msys2.org/packages/mingw-w64-x86_64-opus  
+  Scroll down to "Files" and click on the mirror link starting with "https://mirror.msys2.org/mingw/..."
 
-## Déjà présents
-Pour le fichier  opus.dll :
-	vous pouvez le retrouver à cette adresse : https://packages.msys2.org/packages/mingw-w64-x86_64-opus
-	Descendez jusqu'à "file" et cliquer sur le lien miroir commençant par "https://mirror.msys2.org/mingw/..."
-
-Pour l'exécutable nopus :
-	Installez MSYS2 https://www.msys2.org/
-	Une fois installé et lancé, entrez la commande suivante : pacman -S mingw-w64-ucrt-x86_64-gcc make mingw-w64-ucrt-x86_64-opus
-	Validez avec Y chaque fois que c'est demandé
-	Installez git avec cette commande : pacman -S git
-	Puis la commande : git clone https://github.com/conhlee/nopus.git
-	cd nopus
-	make LDFLAGS="-l:libopus.a -lm -static"
-	Retrouvez l'exécutable dans C:\msys64\home\%Username%\nopus
+**nopus.exe** :  
+	1. Install MSYS2 and lauch it https://www.msys2.org/  
+	2. Enter the following command : `pacman -S mingw-w64-ucrt-x86_64-gcc make mingw-w64-ucrt-x86_64-opus`  
+	3. Confirm with Y whenever prompted  
+	4. Install Git with the following command : `pacman -S git`  
+	5. Then run : `git clone https://github.com/conhlee/nopus.git`  
+	6. `cd nopus`  
+	7. `make LDFLAGS="-l:libopus.a -lm -static"`  
+	8. The result will be generated in :`C:\msys64\home\%Username%\nopus`  
