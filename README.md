@@ -1,9 +1,9 @@
 ## To Download / Install yourself
 **FFMPEG.exe** : https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip
-	With the link above, the archive will download automatically
-	Extract it and locate `ffmpeg.exe`
-	Move `ffmpeg.exe` to the folder containing this README.md file
-	You can now delete the downloaded and the extracted folder, only `ffmpeg.exe` is needed
+	With the link above, the archive will download automatically   
+	Extract it and locate `ffmpeg.exe`  
+	Move `ffmpeg.exe` to the folder containing this README.md file  
+	You can now delete the downloaded and the extracted folder, only `ffmpeg.exe` is needed  
 
 **XbTool.exe** : https://github.com/AlexCSDev/XbTool  
 **XbxDETool.exe** : https://github.com/Nenkai/XbxDeTool  
