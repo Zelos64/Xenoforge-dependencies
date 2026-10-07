@@ -1,12 +1,16 @@
 ## To Download / Install yourself
-**FFMPEG.exe** : https://ffmpeg.org/download.html  
+**FFMPEG.exe** : https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip
+	With the link above, the archive will download automatically
+	Extract it and locate `ffmpeg.exe`
+	Move `ffmpeg.exe` to the folder containing this README.md file
+	You can now delete the downloaded and the extracted folder, only `ffmpeg.exe` is needed
+
 **XbTool.exe** : https://github.com/AlexCSDev/XbTool  
 **XbxDETool.exe** : https://github.com/Nenkai/XbxDeTool  
 
 ## Already present
-**opus.dll** :  
-	https://packages.msys2.org/packages/mingw-w64-x86_64-opus  
-  Scroll down to "Files" and click on the mirror link starting with "https://mirror.msys2.org/mingw/..."
+**opus.dll** : https://packages.msys2.org/packages/mingw-w64-x86_64-opus  
+	Scroll down to "Files" and click on the mirror link starting with "https://mirror.msys2.org/mingw/..."
 
 **nopus.exe** :  
 	1. Install MSYS2 and lauch it https://www.msys2.org/  
